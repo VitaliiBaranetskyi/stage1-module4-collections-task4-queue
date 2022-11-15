@@ -27,7 +27,7 @@ public class ArrayDequeCreatorTest {
         );
     }
 
-    @ParameterizedTest(name = "createArrayDeque_{0}_Tests")
+    @ParameterizedTest(name = "createArrayDeque_{0}_Test")
     @MethodSource(value = "testCases")
     void createArrayDequeTest(String name,
                               Queue<Integer> firstQueue,
