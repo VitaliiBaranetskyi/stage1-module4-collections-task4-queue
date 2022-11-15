@@ -23,7 +23,7 @@ public class ArrayDequeCreatorTest {
                 Arguments.of("QueuesWith6Elements",
                         new LinkedList<>(List.of(1, 3, 5, 4, 7, 9)),
                         new LinkedList<>(List.of(4, 2, 8, 5, 8, 3)),
-                        List.of(1, 3, 4, 5, 8, 7, 8, 2, 4, 3, 5, 10))
+                        List.of(1, 3, 4, 5, 8, 7, 8, 2, 4, 3, 5, 9))
         );
     }
 
