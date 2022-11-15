@@ -20,7 +20,7 @@ public class DishOrderDeterminerTest {
                 Arguments.of("WithDishes",
                         11,
                         4,
-                        List.of(4, 8, 1, 6, 11, 7, 3, 2, 5, 10, 9))
+                        List.of(4, 8, 1, 6, 11, 7, 3, 2, 5, 9, 10))
         );
     }
 
